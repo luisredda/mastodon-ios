@@ -14,7 +14,9 @@ echo $PWD
 
 # install ruby from homebrew
 brew install ruby
-echo 'export PATH="/Users/local/Homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> /Users/anka/.bash_profile
+
 source ~/.zshrc
 
 ruby --version
