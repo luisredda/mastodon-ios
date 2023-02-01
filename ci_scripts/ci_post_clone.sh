@@ -9,7 +9,7 @@ set -o pipefail
 system_profiler SPSoftwareDataType SPHardwareDataType
 
 echo $PWD
-cd $CI_WORKSPACE
+#cd $CI_WORKSPACE
 echo $PWD
 
 # install ruby from homebrew
