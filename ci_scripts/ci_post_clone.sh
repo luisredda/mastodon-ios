@@ -13,9 +13,7 @@ echo $PWD
 echo $PWD
 
 # install ruby from homebrew
-brew install chruby ruby-install
-ruby-install ruby 3.0.3
-#brew install ruby
+brew install ruby
 echo 'export PATH="/Users/local/Homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 
